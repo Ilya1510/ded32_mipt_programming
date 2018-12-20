@@ -1,0 +1,44 @@
+[1;34mpush_back(1) begin[0m
+old_check_sum = 0
+now_check_sum = 0
+[1;34mpush_back(1) end[0m
+[1;34mpush_back(2) begin[0m
+old_check_sum = 44
+now_check_sum = 44
+[1;34mpush_back(2) end[0m
+[1;34mpush_back(3) begin[0m
+old_check_sum = 60317
+now_check_sum = 60317
+[1;34mpush_back(3) end[0m
+[1;35mpop_back() begin[0m
+old_check_sum = 82574091
+now_check_sum = 82574091
+[1;28mdummy element right[0m
+[1;35mpop_back() elem = 3[0m
+[1;35mpop_back() end[0m
+[1;35mpop_back() begin[0m
+old_check_sum = 60317
+now_check_sum = 60317
+[1;28mdummy element right[0m
+[1;35mpop_back() elem = 2[0m
+[1;35mpop_back() end[0m
+[1;35mpop_back() begin[0m
+old_check_sum = 44
+now_check_sum = 44
+[1;28mdummy element right[0m
+[1;35mpop_back() elem = 1[0m
+[1;35mpop_back() end[0m
+[1;35mpop_back() begin[0m
+old_check_sum = 0
+now_check_sum = 0
+[1;45mno elements in stack![0m
+[1;34mpush_back(5) begin[0m
+old_check_sum = 0
+now_check_sum = 0
+[1;34mpush_back(5) end[0m
+[1;35mpop_back() begin[0m
+old_check_sum = 192
+now_check_sum = 192
+[1;28mdummy element right[0m
+[1;35mpop_back() elem = 5[0m
+[1;35mpop_back() end[0m
