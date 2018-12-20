@@ -1,0 +1,16 @@
+begin
+move rcx 9
+move rax 1
+move rbx 0
+label one_step
+push 1
+push $rbx
+add
+pop rbx
+push $rax
+push $rbx
+mul
+pop rax
+print_value $rax
+jne one_step $rcx $rbx
+end
